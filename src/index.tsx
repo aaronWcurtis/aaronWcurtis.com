@@ -1,3 +1,7 @@
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
+import 'whatwg-fetch'
+import 'abortcontroller-polyfill/dist/polyfill-patch-fetch';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
